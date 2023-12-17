@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(29, 22, 22);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    margin-left: 15%;
+    margin-top: -8px;
+    padding-top: -17px;
+    width: 930px;
+    height: 90px;
+    background-color: white;
+}
+
+#list {
+    width:400px;
+}
+
+.nav {
+    float: left;
+    width: 500px;
+}
+
+.item {
+    display: inline-block;
+    margin-left: -28px;
+    margin-top: 17px;
+    padding-right: 50px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#login {
+    float: left;
+    margin-left: 290px;
+    margin-top: 21px;
+    width: 120px;
+    height: 42px;
+    background-color: rgb(247, 180, 213);
+}
+
+#log {
+    margin-top: 11px;
+    height:30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#zagolovok {
+    margin-left: 430px;
+    margin-top: 90px;
+    width: 520px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+#opis {
+    margin-left: 480px;
+    width: 440px;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+    color: rgb(105, 169, 221);
+}
+
+#try {
+    float: left;
+    margin-left: 515px;
+    margin-top: 50px;
+    padding-top: 18px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: blueviolet;
+}
+
+#learn {
+    float: left;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-top: 18px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+    color: white;
+    border: 1px solid white;
+}
