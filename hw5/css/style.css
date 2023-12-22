@@ -1,0 +1,57 @@
+.zagolovok {
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.minion {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  width: 260px;
+  background-color: white;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.text {
+  margin-right: 6px;
+  margin-left: 6px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.button {
+  height: 40px;
+  width: 180px;
+  margin-left: 37px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(69, 69, 209);
+  color: white;
+  font-weight: bold;
+  border: 1px solid rgb(69, 69, 209);
+}
+
+.main {
+  background-color: yellow;;
+}
+
+.conteiner {
+  max-width: 1200px;
+  background-color: rgb(190, 128, 248);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
