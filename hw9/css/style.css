@@ -1,0 +1,63 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.header-scroll {
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: blueviolet;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+}
+
+
+.header-navigation-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-navigation-list__item {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.header-navigation-list__link {
+  color: black;
+}
+
+#home {
+  height: 600px;
+  background-color: red;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+#about {
+  height: 600px;
+  background-color: blue;
+  margin: 30px;
+}
+
+#contacts {
+  height: 600px;
+  background-color: black;
+  margin: 30px;
+}
+
+#product {
+  height: 600px;
+  background-color: green;
+  margin: 30px;
+}
+
+#partners {
+  height: 600px;
+  background-color: yellow;
+  margin: 30px;
+}
