@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#">Главная</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Категории товаров и услуг</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Контакты</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="#">Корзина</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <header class="header-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/3.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="title">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="h1">Оформление заказа</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Доставка по Киеву</h5>
+                  <p class="card-text">Заказ оформленный до 12:00 доставляется курьерской службой в день оформления заказа.<br> После 12:00 доставка заказа происходит на следующий день</p>
+                  <a href="#" class="btn btn-primary">Оформление заказа</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Доставка по Украине</h5>
+                  <p class="card-text">Отправка новой почтой в день оформления заказа. Ориентировочные сроки доставки заказа:<br> - Новая почта - 1-3 дня <br>- Укрпочта - 3-7 дней</p>
+                  <a href="#" class="btn btn-primary">Оформление заказа</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Доставка за границу</h5>
+                  <p class="card-text">Мы осуществляем доставку посылок с Украины от физических лиц в страны Европы, Азии, Африки.
+                    <br>Внимание! Сроки доставки указаны c момента виезда посылок с Украины.</p>
+                  <a href="#" class="btn btn-primary">Оформление заказа</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="h2">Оставить заявку</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <form class="form">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label form-label__meil">Почтовый адрес</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Мы никогда не передадим ваш адрес электронной почты кому-либо еще.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label form-label__password">Пароль</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Запомнить меня</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Отправка</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

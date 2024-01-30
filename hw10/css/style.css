@@ -1,0 +1,17 @@
+.header, .title {
+  padding: 20px 0;
+}
+
+.header-img {
+  padding-bottom: 20px;
+}
+
+
+.form-label__password, .form-label__meil {
+  text-align: center; 
+  display:block;
+  margin-bottom: 10px;}
+
+.form {justify-content: center;}
+
+.h2, .h1 {text-align: center;}
