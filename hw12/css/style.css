@@ -1,0 +1,72 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.animations {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  border-radius: 50px;
+  animation: box 4s ease-in 0s infinite alternate;
+}
+
+@keyframes box {
+  from {
+    margin-top: 400px;
+  }
+
+  10% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  20% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  30% {
+    background-color: blue;
+  }
+
+  40% {
+    background-color: blue;
+  }
+
+  50% {
+    margin-top: 150px;
+    margin-left: 250px;
+    height: 160px;
+    width: 160px;
+    border-radius: 80px;
+    background-color: blue;
+  }
+
+  57% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  65% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  72% {
+    background-color: blue;
+  }
+
+  79% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  86% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  93% {
+    background-color: rgb(211, 199, 223);
+  }
+
+  to {
+    margin-top: 400px;
+    margin-left: 650px;
+  }
+}
